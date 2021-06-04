@@ -114,10 +114,31 @@
 // document.writeln(num);  //It will print 5 after adding 1 digit more
 
 // CONCATENATION:
-
-
 var firstname="Maria";
 var secondname="Areej";
 var fullname=firstname +" "+secondname;
-document.write(fullname);
+document.write(fullname  , "</br>");
 console.log(fullname)
+
+// BODMAS:
+var terms= 1*8/2-2;
+document.write(terms  , "</br>");
+
+
+// SUBTRACTION OF TWO NUMBERS:
+var digitone= 9;
+var digittwo= 2;
+var minus= digitone-digittwo;
+document.writeln(minus,"</br>");
+
+//SUBTRACTION OF TWO NUMBERS BY POST DECREMENT:
+var digit=9;
+console.log(digit);
+digit--;
+document.writeln(digit);
+console.log(digit);
+
+
+
+
+
