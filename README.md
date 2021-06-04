@@ -4,3 +4,4 @@
 2. shift + !
 3. Download free (book) [https://cdn.wccftech.com/wp-content/uploads/2014/10/JavaScript.pdf]
 4. install an extension live server
+5. Ctrl + /
