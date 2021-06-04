@@ -101,14 +101,23 @@
 // var result = num1 + num2;
 // document.writeln(result)
 
-// ADDITION OF TWO NUMBERS:
-var num1 = 9;
-var num2 = 3;
-var add = num1+num2;
-document.write(add);
+// // ADDITION OF TWO NUMBERS:
+// var num1 = 9;
+// var num2 = 3;
+// var add = num1+num2;
+// document.write(add);
 
-// ADDITION OF TWO NUMBERS BY POST INCREMENT:
-var num= 4;
-document.write(num);  //It will print 4
-num++;
-document.writeln(num);  //It will print 5 after adding 1 digit more 
+// // ADDITION OF TWO NUMBERS BY POST INCREMENT:
+// var num= 4;
+// document.write(num);  //It will print 4
+// num++;
+// document.writeln(num);  //It will print 5 after adding 1 digit more
+
+// CONCATENATION:
+
+
+var firstname="Maria";
+var secondname="Areej";
+var fullname=firstname +" "+secondname;
+document.write(fullname);
+console.log(fullname)
