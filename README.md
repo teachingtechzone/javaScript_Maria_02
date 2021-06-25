@@ -1,4 +1,4 @@
-# Class 1st
+# Class 1st (31 - may - 2021) (course - 2 months)
 
 1. install (vscode) [https://code.visualstudio.com/]
 2. shift + !
