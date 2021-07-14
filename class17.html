@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+
+    </div>
+
+    <button>
+        Click
+    </button>
+    <button>reset</button>
+<!-- counter -->
+<!-- increament  -->
+
+<!-- <div>
+
+</div>
+
+<button>
+    Increament
+</button> -->
+
+
+
+
+
+    <script>
+        // var mydiv = document.getElementsByTagName("div")[0];
+        // var btn = document.getElementsByTagName("button")[0];
+
+        // btn.addEventListener("click", changetext);
+        // function changetext() {
+        //     mydiv.innerText = "Maria";
+        // }
+// counter
+// increment
+
+        // var counter = 0;
+
+        // var counterdiv = document.getElementsByTagName("div")[0];
+        // var btn = document.getElementsByTagName("button")[0];
+
+        // btn.addEventListener("click", counterFunction);
+        // counterdiv.innerText = counter;
+
+        // function counterFunction() {
+        //     // counter++;
+        //     counter = counter + 5;
+        //     counterdiv.innerText = counter;
+        // }
+// decremt counter
+
+            // var counter = 0;
+            // var counterdiv = document.getElementsByTagName("div")[0];
+            // var btn = document.getElementsByTagName("button")[0];
+
+            // btn.addEventListener("click", counterFunction);
+            // counterdiv.innerText = counter;
+
+            // function counterFunction() {
+            //     counter++;
+            //     // counter = counter - 1;
+            //     counterdiv.innerText = counter;
+            // }
+
+                
+                /************************/
+                var counter = 0;
+                var counterdiv = document.getElementsByTagName("div")[0];
+                var btn = document.getElementsByTagName("button")[0];
+                var btn1 = document.getElementsByTagName("button")[1];
+
+                btn.addEventListener("click", funtn);
+                btn1.addEventListener("click", reset);
+                counterdiv.innerText = counter;
+
+                function funtn() {
+                    counter = counter + 1;
+                    counterdiv.innerText = counter;
+                }
+
+                function reset() {
+                    counter = 0;
+                    counterdiv.innerText = counter;
+                }
+
+    </script>
+</body>
+</html>
