@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        // Bubble sort Implementation using Javascript
+
+        // var num1 = 7;
+        // var num2 = 1;
+        // var num3 = num1;
+        // num1 = num2;
+        // num2 = num3;
+        // This is our unsorted array
+        var inputArr = [234, 43, 55, 63, 10000, 5, 6, 235, 547, -1];
+
+        for (let i = 0; i < inputArr.length; i++) { // 10 times
+            console.log(i+ " - Before inner"+inputArr)
+            for (let j = 0; j < inputArr.length; j++) { // 10 times
+                if (inputArr[j] > inputArr[j + 1]) { // 234 > 43 , 234 > 55 , 234 > 63 , 234 > 10000
+                    
+                    let tmp = inputArr[j];
+                    inputArr[j] = inputArr[j + 1];
+                    inputArr[j + 1] = tmp;
+                }
+                
+                console.log(j+" - after inner" + inputArr)
+            }
+        }
+
+        // console.log(inputArr)
+
+        // for (var i = 0; i < 10; i++) {
+        //     for (var j = 0; j < 10; j++) {
+        //         console.log(i)
+        //     }
+        // }
+
+        // for (var i = 0; i < 10; i++){
+        //     for (var j = 0; j < 10; j++)
+        //     console.log("hello");
+        // }
+
+    </script>
+</body>
+
+</html>
