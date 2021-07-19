@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<div>
+
+</div>
+
+<div id="div2">
+    div 2
+</div>
+<p class="myclass">
+
+</p>
+
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script>
+        // $(document).ready(function(){
+            // console.log("running from jquery")
+            // $("body").css("background-color" , "black")
+        // })
+
+        $(function(){
+            console.log("running from jquery")
+            // $("body").css("background-color" , "black")
+            $("div").text("my text");
+            $("div").css("color" , "red");
+
+            $("#div2").css("color" ,"green")
+            $(".myclass").text("my paragraph");
+            $(".myclass").css("color", "blue")
+        })
+
+
+
+        // using javaScript
+        // var mybody = document.getElementsByTagName("body");
+        // mybody[0].style = "background-color : red"
+    </script>
+</body>
+</html>
